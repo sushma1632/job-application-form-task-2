@@ -1,0 +1,81 @@
+body,html{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(37, 37, 75);
+    border: 1px solid rgb(29, 5, 247);
+    background-color: rgb(227, 161, 243);
+    padding: 15px;
+}
+
+.heading1{
+   
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-decoration: underline;
+ 
+}
+
+.sub_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+}
+
+.section1{
+    text-decoration: underline;
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section2{
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.drop_down{
+    padding:2px 7px;
+}
+
+.input_area{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.labels{
+    font-size: 19px;
+    
+   
+}
+
+.number1{
+    font-size: 20px;
+    width: 20%;
+}
+
+::placeholder {
+   font-size: 16px;
+   text-align: left;
+  }
+
+
+  .school_college_field{
+      width: 70%;
+      font-size: 20px;
+  }
+
+
+@media(max-width : 400px){
+    .textareas{
+        font-size: 11px;
+    }
+}

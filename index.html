@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Application form</title>
+
+</head>
+<body>
+   
+
+    <h1 class="heading1">Employment Application Form</h1>
+    <h2 class="section1">Personal Information :</h2>
+    <form action="" class="personal_details">
+            <label class="labels"><b>Date :</b> </label>
+            <br><br>
+            <label class="labels" for="first_name"><b>First Name : </b></label>
+            <input placeholder="max 25 characters" class="input_area school_college_field" type="text" name="firstname" id="first_name">
+            <br>
+            <label class="labels" for="Last_name"><b>Last Name : </b></label>
+            <input placeholder="max 25 characters" class="input_area school_college_field" type="text" name="lastname" id="Last_name">
+            <br>
+            <label class="labels"><b>Gender :</b></label>
+            <input class="input_area" name="gender" type="radio" >
+            <label class="labels">Male</label>
+            <input class="input_area" name="gender" type="radio">
+            <label class="labels" >Female</label>
+            <br>
+             <label class="labels" for="phonenumber"><b>Phone Number :</b> </label>
+             <input type="phone" class="input_area school_college_field">
+             <br>
+             <label class="labels" for="phonenumber"><b>Address :</b> </label>
+             <br>
+             <textarea class="textareas" name="" id="" cols="35" rows="7"></textarea>
+             <br><br>
+             <label class="labels" for="city"><b>City :</b> </label>
+             <input type="text" class="input_area school_college_field">
+                <h2 class="section2">Educational Details </h2>
+                <h3 class="labels">Grade 10 : </h3><h3 class="labels">School Name :</h3>
+                <input type="school" class="school_college_field">
+                <h3 class="labels">Grade 10 : </h3><h3 class="labels">Board of Study :</h3>
+                <select class="drop_down" name="year_of_graduation" required>
+                    
+                    <option>CBSE</option>
+                    <option>ICSE</option>
+                    <option>CISCE</option>
+                    <option>NIOS</option>
+                    <option>Other</option>
+                    
+
+                    
+                </select>
+                <h3 class="labels"> Marks in percentage / CGPA :</h3>
+                <input class="number1" type="marks">
+                <h3 class="labels">Year of Passing :</h3>
+                <select class="drop_down" name="year_of_graduation" required>
+                    
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                </select>
+                <h3 class="labels">Grade 12 : </h3>
+                <h3 class="labels">College Name :</h3>
+                <input type="text" class="school_college_field">
+                <h3 class="labels">Degree :</h3>
+                <input type="text" class="school_college_field">
+                <h3 class="labels">Department :</h3>
+                <select class="drop_down" name="year_of_graduation" required>
+                    
+                    <option>CSE</option>
+                    <option>ECE</option>
+                    <option>Mechanical</option>
+                    <option>IT</option>
+                    
+                </select>
+                <h3 class="labels">Year of Passing :</h3>
+                <select class="drop_down">Choose
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                </select>
+                <h3 class="labels">Marks in percentage :</h3>
+                <input class="number1" type="marks">
+                <br><br>
+                <label class="labels"><b>Position Applied For :</b> </label>
+                <br><br>
+                <select class="drop_down" name="position_applied" required>
+                    <option>CHOOSE</option>
+                    <option>Web Development</option>
+                    <option>App Development</option>
+                    <option>Data Science</option>
+                    <option>Software Testing</option>
+                    
+                </select>
+                <br><br>
+                <label class="labels" for="Github"><b>Github Profile</b> </label>
+                <input type="text" class="input_area">
+                <br>
+                <label class="labels" for="Linkedin"><b>Linkedin Profile</b> </label>
+                <input type="text" class="input_area">
+                <label class="labels" for="projects"><b>Project Links</b> </label>
+                <input type="text" class="input_area">
+                <label class="labels" for="projects"><b>Upload Resume</b> </label>
+                <br><br>
+                
+                <input class="file" type="file" id="myfile" name="myfile"><br><br>
+                <input class="sub_button" type="submit">
+    </form>
+   
+
+    
+</body>
+</html>
